@@ -1,16 +1,16 @@
 require ('pry')
 
 class CoinCombos
-  
+  attr_reader(:user_entry)
 
   def initialize(user_entry)
     @user_entry = user_entry
     @coins = {"quarters" => 25, "dimes" => 10, "nickles" => 5, "pennies" => 1}
   end
 
-  def user_entry
-    @user_entry
-  end
+  # def user_entry
+  #   @user_entry
+  # end
 
   def counter
     # code here
