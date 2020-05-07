@@ -1,2 +1,5 @@
+require ('rspec')
 require ('pry')
-require ('coin_combinations_script')
+require ('coin_combinations')
+
+describe()
