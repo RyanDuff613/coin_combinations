@@ -10,6 +10,7 @@ describe("CoinCombos")do
   
   it("loops through coin_string & coin_numbers arrays to compare user input")do
     coin_combo = CoinCombos.new(87)
+    user_entry.coin_counter()
     expect(coin_combo.results[0]).to(eq(3))
   end
 
